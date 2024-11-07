@@ -1,0 +1,74 @@
+.button-container {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 34px;
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 100px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+.button-chevron {
+  border: none;
+  border-left: 1px solid #ffffff80;
+  background-color: #405cf5;
+  border-end-end-radius: 8px;
+  cursor: pointer;
+}
+
+.button-chevron:hover {
+  background-color: #263bb2;
+}
+
+.button-dropdown {
+  border-radius: 0;
+  border-bottom-left-radius: 8px;
+}
+
+.button-primary {
+  color: white;
+  background-color: #405cf5;
+  transition: 0.2s;
+}
+
+.button-primary:hover {
+  background-color: #263bb2;
+}
+
+.button-secondary {
+  background-color: transparent;
+  transition: 0.2s;
+}
+
+.button-secondary:hover {
+  background-color: #0000001d;
+}
+
+.button-listitem {
+  background-color: transparent;
+  justify-content: left;
+  width: 100%;
+  font-weight: 400;
+}
+
+.button-listitem:hover {
+  background-color: #ededed;
+}
+
+.button-disabled {
+  background-color: #999999;
+}
+
+.button-disabled:hover {
+  background-color: #999999;
+}

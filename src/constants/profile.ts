@@ -1,0 +1,34 @@
+import { COLORS, ColorType } from "./color";
+import { IconKind } from "./icons";
+
+export const persona_icons: IconKind[] = [
+  IconKind.WOMAN_WITH_GLASSES_AND_LONG_HAIR,
+  IconKind.MAN_WITH_BEARD_AND_GLASSES,
+  IconKind.MAN_WITH_GLASSES,
+  IconKind.WOMAN_WITH_LONG_CURLY_HAIR,
+  IconKind.BOLD_MAN_WITH_BEARD,
+  IconKind.WOMAN_WITH_LONG_HAIR_TO_ONE_SIDE,
+  IconKind.MAN_WITH_LONG_HAIR,
+  IconKind.WOMAN_WITH_LONG_HAIR,
+  IconKind.MAN_WITH_SHORT_HAIR,
+  IconKind.WOMAN_WITH_HABIB,
+  IconKind.WOMAN_WITH_SHORT_HAIR,
+  IconKind.MAN_WITH_SHORT_HAIR2,
+  IconKind.WOMAN_WITH_TIED_HAIR,
+];
+
+export const persona_backgrounds: ColorType[] = [
+  COLORS.BLUE,
+  COLORS.LIGHT_BLUE,
+  COLORS.TEAL,
+  COLORS.GREEN,
+  COLORS.LIGHT_YELLOW,
+  COLORS.YELLOW,
+  COLORS.ORANGE,
+  COLORS.LIGHT_RED,
+  COLORS.RED,
+  COLORS.DARK_RED,
+  COLORS.PURPLE,
+  COLORS.DARK_BLUE,
+  COLORS.MINT,
+];

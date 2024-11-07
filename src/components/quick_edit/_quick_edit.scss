@@ -1,0 +1,96 @@
+.quick-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 388px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .close {
+      transition: 200ms;
+      padding: 4px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      background-color: #0000001d;
+    }
+  }
+
+  .profile {
+    display: flex;
+    gap: 16px;
+
+    .avatar {
+      box-shadow: 0px 4px 8px 0px #0000000d;
+    }
+
+    .label {
+      font-size: 16px;
+    }
+
+    .name-input {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+      input {
+        font-size: 16px;
+        padding: 12px;
+        color: #101010;
+        border: 1.5px solid #e6e6e6;
+        border-radius: 6px;
+      }
+
+      .error {
+        color: #00000099;
+        font-size: 0.875rem;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+  }
+}
+
+.image-picker,
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .title {
+    font-size: 16px;
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .check {
+    display: block;
+    position: absolute;
+  }
+}
+
+.wrap-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
