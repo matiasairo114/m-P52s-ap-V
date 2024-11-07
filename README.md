@@ -2,20 +2,21 @@
 
 ### Prerequisites
 
-* Node.js: Make sure you have Node.js version 20.12.0 installed.
+- Node.js: Make sure you have Node.js version 20.12.0 installed.
   ```
   node -v
   ```
-* [Download Node.js 20.12.0](https://nodejs.org/) if you don’t have it installed.
+- [Download Node.js 20.12.0](https://nodejs.org/) if you don’t have it installed.
 
 ### Installation Steps
 
 1. **Clone the repository**
 
    ```
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/matiasairo114/m-P52s-ap-V.git
+   cd m-P52s-ap-V
    ```
+
 2. **Install dependencies**
 
    Inside the project directory, install the required packages:
